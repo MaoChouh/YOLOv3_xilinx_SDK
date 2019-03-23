@@ -92,3 +92,8 @@ con
 ----------------End of Script----------------
 
 19:42:01 INFO  : Disconnected from the channel tcfchan#2.
+16:10:47 INFO  : Registering command handlers for SDK TCF services
+16:10:48 INFO  : Launching XSCT server: xsct.bat -interactive F:\C_plus_prj\yolo3_sdk\YOLOv3_xilinx_SDK\temp_xsdb_launch_script.tcl
+16:10:52 INFO  : XSCT server has started successfully.
+16:10:54 INFO  : Successfully done setting XSCT server connection channel  
+16:10:54 INFO  : Successfully done setting SDK workspace  

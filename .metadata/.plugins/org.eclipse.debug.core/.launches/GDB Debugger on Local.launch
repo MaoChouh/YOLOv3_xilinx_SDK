@@ -41,6 +41,12 @@
 <stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="yolov2_coco"/>
 <booleanAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_AUTO_ATTR" value="true"/>
 <stringAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_ID_ATTR" value=""/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/yolov2_coco"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+</listAttribute>
 <booleanAttribute key="org.eclipse.tcf.debug.AttachChildren" value="true"/>
 <booleanAttribute key="org.eclipse.tcf.debug.DisconnectOnCtxExit" value="false"/>
 <booleanAttribute key="org.eclipse.tcf.debug.StopAtEntry" value="false"/>
