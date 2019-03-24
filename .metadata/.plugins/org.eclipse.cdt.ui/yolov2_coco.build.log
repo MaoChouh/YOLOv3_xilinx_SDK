@@ -1,8 +1,18 @@
-16:21:38 **** Incremental Build of configuration Debug for project yolov2_coco ****
+23:33:54 **** Auto Build of configuration Debug for project yolov2_coco ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
-make: Nothing to be done for `main-build'.
+'Building target: yolov2_coco.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../yolov2_coco_bsp/ps7_cortexa9_0/lib -o "yolov2_coco.elf"  ./src/helloworld.o ./src/platform.o ./src/yolo_hw.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/helloworld.o: In function `yolov2_hls_ps':
+F:\C_plus_prj\yolo3_sdk\YOLOv3_xilinx_SDK\yolov2_coco\Debug/../src/yolov2.h:3626: undefined reference to `YOLO2_FPGA'
+F:\C_plus_prj\yolo3_sdk\YOLOv3_xilinx_SDK\yolov2_coco\Debug/../src/yolov2.h:3656: undefined reference to `YOLO2_FPGA'
+F:\C_plus_prj\yolo3_sdk\YOLOv3_xilinx_SDK\yolov2_coco\Debug/../src/yolov2.h:3676: undefined reference to `YOLO2_FPGA'
+e:/xilinx/sdk/2018.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/v7-a/fpv3/hard\libc.a(lib_a-gettimeofdayr.o): In function `_gettimeofday_r':
+/proj/esdt_sdk/gnu_abe/ABE/builds/lin/arm/arm-linux/snapshots/newlib-newlib-2_4_0/newlib/libc/reent/gettimeofdayr.c:71: undefined reference to `_gettimeofday'
+collect2.exe: error: ld returned 1 exit status
+make: *** [yolov2_coco.elf] ´íÎó 1
 
-16:21:38 Build Finished (took 262ms)
+23:33:56 Build Finished (took 1s.538ms)
 

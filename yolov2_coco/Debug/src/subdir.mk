@@ -8,15 +8,18 @@ LD_SRCS += \
 
 C_SRCS += \
 ../src/helloworld.c \
-../src/platform.c 
+../src/platform.c \
+../src/yolo_hw.c 
 
 OBJS += \
 ./src/helloworld.o \
-./src/platform.o 
+./src/platform.o \
+./src/yolo_hw.o 
 
 C_DEPS += \
 ./src/helloworld.d \
-./src/platform.d 
+./src/platform.d \
+./src/yolo_hw.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

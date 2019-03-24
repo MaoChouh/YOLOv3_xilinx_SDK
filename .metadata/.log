@@ -9859,3 +9859,3439 @@ java.io.FileNotFoundException: F:\C_plus_prj\yolo3_sdk\YOLOv3_xilinx_SDK\.metada
 	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2283)
 	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$4.run(IDEWorkbenchAdvisor.java:456)
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SESSION 2019-03-23 16:55:00.173 -----------------------------------------------
+eclipse.buildId=2018.2
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 2 0 2019-03-23 16:55:26.222
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-03-23 16:55:26.222
+!MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
+
+!ENTRY org.eclipse.ui 2 0 2019-03-23 16:55:26.970
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-03-23 16:55:26.970
+!MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-03-23 16:55:32.985
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Yello'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 16:55:35.565
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 16:55:35.569
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-16
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 16:55:35.771
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 16:55:35.778
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-16
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 16:55:35.795
+!MESSAGE XSCT Command: [setws F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK], Thread: Thread-16
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 16:55:35.802
+!MESSAGE XSCT Command: [::hsi::utils::openhw F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolo_sys_wrapper_hw_platform_0/system.hdf], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 16:55:35.812
+!MESSAGE XSCT command with result: [setws F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK], Result: [null, ]. Thread: Thread-16
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 16:55:39.801
+!MESSAGE XSCT command with result: [::hsi::utils::openhw F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolo_sys_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 16:57:54.743
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolo_sys_wrapper_hw_platform_0/system.hdf F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolov2_coco_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 16:57:54.789
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolo_sys_wrapper_hw_platform_0/system.hdf F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolov2_coco_bsp/system.mss ], Result: [{Format=ERROR: [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+, Time=1553331474788, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 16:57:54.794
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolo_sys_wrapper_hw_platform_0/system.hdf F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolov2_coco_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 16:57:54.804
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolo_sys_wrapper_hw_platform_0/system.hdf F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolov2_coco_bsp/system.mss], Result: [{Format=ERROR: [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+, Time=1553331474804, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 16:57:54.809
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolo_sys_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 16:57:54.827
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolo_sys_wrapper_hw_platform_0/system.hdf], Result: [null, {"YOLO2_FPGA_0": {"hier_name": "YOLO2_FPGA_0",
+"type": "YOLO2_FPGA",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_smc": {"hier_name": "axi_smc",
+"type": "smartconnect",
+"version": "1.0",
+"ip_type": "BUS",
+},
+"axi_smc_1": {"hier_name": "axi_smc_1",
+"type": "smartconnect",
+"version": "1.0",
+"ip_type": "BUS",
+},
+"clk_wiz_0": {"hier_name": "clk_wiz_0",
+"type": "clk_wiz",
+"version": "6.0",
+"ip_type": "PERIPHERAL",
+},
+"processing_system7_0": {"hier_name": "processing_system7_0",
+"type": "processing_system7",
+"version": "5.5",
+"ip_type": "",
+},
+"ps7_0_axi_periph": {"hier_name": "ps7_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"rst_clk_wiz_0_130M": {"hier_name": "rst_clk_wiz_0_130M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+"ps7_clockc_0": {"hier_name": "ps7_clockc_0",
+"type": "ps7_clockc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_uart_1": {"hier_name": "ps7_uart_1",
+"type": "ps7_uart",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_pl310_0": {"hier_name": "ps7_pl310_0",
+"type": "ps7_pl310",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_pmu_0": {"hier_name": "ps7_pmu_0",
+"type": "ps7_pmu",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_qspi_0": {"hier_name": "ps7_qspi_0",
+"type": "ps7_qspi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_qspi_linear_0": {"hier_name": "ps7_qspi_linear_0",
+"type": "ps7_qspi_linear",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_axi_interconnect_0": {"hier_name": "ps7_axi_interconnect_0",
+"type": "ps7_axi_interconnect",
+"version": "1.00.a",
+"ip_type": "BUS",
+},
+"ps7_cortexa9_0": {"hier_name": "ps7_cortexa9_0",
+"type": "ps7_cortexa9",
+"version": "5.2",
+"ip_type": "PROCESSOR",
+},
+"ps7_cortexa9_1": {"hier_name": "ps7_cortexa9_1",
+"type": "ps7_cortexa9",
+"version": "5.2",
+"ip_type": "PROCESSOR",
+},
+"ps7_ddr_0": {"hier_name": "ps7_ddr_0",
+"type": "ps7_ddr",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_ethernet_0": {"hier_name": "ps7_ethernet_0",
+"type": "ps7_ethernet",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_usb_0": {"hier_name": "ps7_usb_0",
+"type": "ps7_usb",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_sd_0": {"hier_name": "ps7_sd_0",
+"type": "ps7_sdio",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_gpio_0": {"hier_name": "ps7_gpio_0",
+"type": "ps7_gpio",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ddrc_0": {"hier_name": "ps7_ddrc_0",
+"type": "ps7_ddrc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dev_cfg_0": {"hier_name": "ps7_dev_cfg_0",
+"type": "ps7_dev_cfg",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_xadc_0": {"hier_name": "ps7_xadc_0",
+"type": "ps7_xadc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ocmc_0": {"hier_name": "ps7_ocmc_0",
+"type": "ps7_ocmc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_coresight_comp_0": {"hier_name": "ps7_coresight_comp_0",
+"type": "ps7_coresight_comp",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_gpv_0": {"hier_name": "ps7_gpv_0",
+"type": "ps7_gpv",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_scuc_0": {"hier_name": "ps7_scuc_0",
+"type": "ps7_scuc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_globaltimer_0": {"hier_name": "ps7_globaltimer_0",
+"type": "ps7_globaltimer",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_intc_dist_0": {"hier_name": "ps7_intc_dist_0",
+"type": "ps7_intc_dist",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_l2cachec_0": {"hier_name": "ps7_l2cachec_0",
+"type": "ps7_l2cachec",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dma_s": {"hier_name": "ps7_dma_s",
+"type": "ps7_dma",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_iop_bus_config_0": {"hier_name": "ps7_iop_bus_config_0",
+"type": "ps7_iop_bus_config",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ram_0": {"hier_name": "ps7_ram_0",
+"type": "ps7_ram",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_ram_1": {"hier_name": "ps7_ram_1",
+"type": "ps7_ram",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_scugic_0": {"hier_name": "ps7_scugic_0",
+"type": "ps7_scugic",
+"version": "1.00.a",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"ps7_scutimer_0": {"hier_name": "ps7_scutimer_0",
+"type": "ps7_scutimer",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_scuwdt_0": {"hier_name": "ps7_scuwdt_0",
+"type": "ps7_scuwdt",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_slcr_0": {"hier_name": "ps7_slcr_0",
+"type": "ps7_slcr",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dma_ns": {"hier_name": "ps7_dma_ns",
+"type": "ps7_dma",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_0": {"hier_name": "ps7_afi_0",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_1": {"hier_name": "ps7_afi_1",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_2": {"hier_name": "ps7_afi_2",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_3": {"hier_name": "ps7_afi_3",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_m_axi_gp0": {"hier_name": "ps7_m_axi_gp0",
+"type": "ps7_m_axi_gp",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 16:57:54.834
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolo_sys_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 16:57:54.841
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolo_sys_wrapper_hw_platform_0/system.hdf], Result: [null, {"device": "7z020",
+"family": "zynq",
+"timestamp": "Thu Mar 21 18:47:58 2019",
+"vivado_version": "2018.3",
+"part": "xc7z020clg400-1",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 16:57:54.846
+!MESSAGE XSCT Command: [::hsi::utils::closesw F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolov2_coco_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 16:57:54.851
+!MESSAGE XSCT command with result: [::hsi::utils::closesw F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolov2_coco_bsp/system.mss], Result: [{Format=Cannot close sw design 'F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolov2_coco_bsp/system.mss'.
+Design is not opened in the current session.
+
+, Time=1553331474850, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.420
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolo_sys_wrapper_hw_platform_0/system.hdf F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolov2_coco_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.430
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolo_sys_wrapper_hw_platform_0/system.hdf F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolov2_coco_bsp/system.mss ], Result: [{Format=ERROR: [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+, Time=1553331659430, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.435
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolo_sys_wrapper_hw_platform_0/system.hdf F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolov2_coco_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.446
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolo_sys_wrapper_hw_platform_0/system.hdf F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolov2_coco_bsp/system.mss], Result: [{Format=ERROR: [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+, Time=1553331659445, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.450
+!MESSAGE XSCT Command: [hsi::utils::get_supported_os -json F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolo_sys_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.466
+!MESSAGE XSCT command with result: [hsi::utils::get_supported_os -json F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolo_sys_wrapper_hw_platform_0/system.hdf], Result: [null, {"ps7_cortexa9_0": {"freertos10_xilinx_v1_1": {"name": "freertos10_xilinx",
+"version": "1.1",
+"desc": "FreeRTOS is a market leading open source RTOS",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/ThirdParty/bsp/freertos10_xilinx_v1_1",
+},
+"standalone_v6_7": {"name": "standalone",
+"version": "6.7",
+"desc": "Standalone is a simple, low-level software layer. It provides access to basic processor features such as caches, interrupts and exceptions as well as the basic features of a hosted environment, such as standard input and output, profiling, abort and exit.",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lgcc,-lc,--end-group",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/lib/bsp/standalone_v6_7",
+},
+},
+"ps7_cortexa9_1": {"freertos10_xilinx_v1_1": {"name": "freertos10_xilinx",
+"version": "1.1",
+"desc": "FreeRTOS is a market leading open source RTOS",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/ThirdParty/bsp/freertos10_xilinx_v1_1",
+},
+"standalone_v6_7": {"name": "standalone",
+"version": "6.7",
+"desc": "Standalone is a simple, low-level software layer. It provides access to basic processor features such as caches, interrupts and exceptions as well as the basic features of a hosted environment, such as standard input and output, profiling, abort and exit.",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lgcc,-lc,--end-group",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/lib/bsp/standalone_v6_7",
+},
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.471
+!MESSAGE XSCT Command: [hsi get_property DESCRIPTION [hsi get_sw_cores -filter {NAME == "" && VERSION == ""} ]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.479
+!MESSAGE XSCT command with result: [hsi get_property DESCRIPTION [hsi get_sw_cores -filter {NAME == "" && VERSION == ""} ]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331659479, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.489
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "" && VERSION == ""  && TYPE == "OS"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.498
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "" && VERSION == ""  && TYPE == "OS"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331659495, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.511
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolo_sys_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.517
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolo_sys_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0], Result: [null, YOLO2_FPGA_0 ps7_afi_0 ps7_afi_1 ps7_afi_2 ps7_afi_3 ps7_coresight_comp_0 ps7_ddr_0 ps7_ddrc_0 ps7_dev_cfg_0 ps7_dma_ns ps7_dma_s ps7_ethernet_0 ps7_globaltimer_0 ps7_gpio_0 ps7_gpv_0 ps7_intc_dist_0 ps7_iop_bus_config_0 ps7_l2cachec_0 ps7_ocmc_0 ps7_pl310_0 ps7_pmu_0 ps7_qspi_0 ps7_qspi_linear_0 ps7_ram_0 ps7_ram_1 ps7_scuc_0 ps7_scugic_0 ps7_scutimer_0 ps7_scuwdt_0 ps7_sd_0 ps7_slcr_0 ps7_uart_1 ps7_usb_0 ps7_xadc_0]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.522
+!MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolo_sys_wrapper_hw_platform_0/system.hdf F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolov2_coco_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.533
+!MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolo_sys_wrapper_hw_platform_0/system.hdf F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolov2_coco_bsp/system.mss], Result: [{Format=ERROR: [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+, Time=1553331659533, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.545
+!MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolo_sys_wrapper_hw_platform_0/system.hdf F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolov2_coco_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.556
+!MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolo_sys_wrapper_hw_platform_0/system.hdf F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolov2_coco_bsp/system.mss], Result: [{Format=ERROR: [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+, Time=1553331659556, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.561
+!MESSAGE XSCT Command: [hsi::utils::get_drivers_for_hw -json F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolo_sys_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.690
+!MESSAGE XSCT command with result: [hsi::utils::get_drivers_for_hw -json F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolo_sys_wrapper_hw_platform_0/system.hdf], Result: [null, {"YOLO2_FPGA_0": {"version": "1.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"YOLO2_FPGA_v1_0": {"name": "YOLO2_FPGA",
+"version": "1.0",
+"repo": "F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolo_sys_wrapper_hw_platform_0/drivers/YOLO2_FPGA_v1_0",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_smc": {"version": "1.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"axi_smc_1": {"version": "1.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"clk_wiz_0": {"version": "6.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"clk_wiz_v1_2": {"name": "clk_wiz",
+"version": "1.2",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/clk_wiz_v1_2",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"processing_system7_0": {"version": "5.5",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_0_axi_periph": {"version": "2.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"rst_clk_wiz_0_130M": {"version": "5.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_clockc_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_uart_1": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"uartps_v3_6": {"name": "uartps",
+"version": "3.6",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/uartps_v3_6",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_pl310_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_pmu_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_qspi_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"qspips_v3_4": {"name": "qspips",
+"version": "3.4",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/qspips_v3_4",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_qspi_linear_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_axi_interconnect_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_cortexa9_0": {"version": "5.2",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"cpu_cortexa9_v2_6": {"name": "cpu_cortexa9",
+"version": "2.6",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/cpu_cortexa9_v2_6",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_cortexa9_1": {"version": "5.2",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"cpu_cortexa9_v2_6": {"name": "cpu_cortexa9",
+"version": "2.6",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/cpu_cortexa9_v2_6",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_ddr_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"ddrps_v1_0": {"name": "ddrps",
+"version": "1.0",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/ddrps_v1_0",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_ethernet_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"emacps_v3_7": {"name": "emacps",
+"version": "3.7",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/emacps_v3_7",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_usb_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"usbps_v2_4": {"name": "usbps",
+"version": "2.4",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/usbps_v2_4",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_sd_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"sdps_v3_5": {"name": "sdps",
+"version": "3.5",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/sdps_v3_5",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_gpio_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"gpiops_v3_3": {"name": "gpiops",
+"version": "3.3",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/gpiops_v3_3",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_ddrc_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_dev_cfg_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"devcfg_v3_5": {"name": "devcfg",
+"version": "3.5",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/devcfg_v3_5",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_xadc_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"xadcps_v2_2": {"name": "xadcps",
+"version": "2.2",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/xadcps_v2_2",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_ocmc_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_coresight_comp_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"coresightps_dcc_v1_4": {"name": "coresightps_dcc",
+"version": "1.4",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/coresightps_dcc_v1_4",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_gpv_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_scuc_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_globaltimer_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_intc_dist_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_l2cachec_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_dma_s": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"dmaps_v2_3": {"name": "dmaps",
+"version": "2.3",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/dmaps_v2_3",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_iop_bus_config_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_ram_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_ram_1": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_scugic_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"scugic_v3_9": {"name": "scugic",
+"version": "3.9",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/scugic_v3_9",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_scutimer_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"scutimer_v2_1": {"name": "scutimer",
+"version": "2.1",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/scutimer_v2_1",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_scuwdt_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"scuwdt_v2_1": {"name": "scuwdt",
+"version": "2.1",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/scuwdt_v2_1",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_slcr_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_dma_ns": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"dmaps_v2_3": {"name": "dmaps",
+"version": "2.3",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/dmaps_v2_3",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_afi_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_afi_1": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_afi_2": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_afi_3": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_m_axi_gp0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "E:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.696
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.703
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331659703, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.710
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.718
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331659717, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.724
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.732
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331659731, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.737
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.743
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331659743, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.748
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.754
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331659753, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.758
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.765
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331659765, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.770
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.777
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331659776, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.782
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.788
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331659788, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.793
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.800
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331659799, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.804
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.810
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331659810, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.816
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.822
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331659822, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.826
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.838
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331659833, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.843
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.850
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331659850, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.855
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.862
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331659862, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.867
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.873
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331659873, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.878
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.884
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331659884, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.889
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.895
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331659894, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.898
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.904
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331659904, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.908
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.917
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331659914, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.921
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.930
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331659927, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.934
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.941
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331659940, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.945
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.951
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331659951, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.955
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.972
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331659969, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.976
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.985
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331659982, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.989
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:00:59.998
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331659995, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.013
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.019
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331660019, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.023
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.029
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331660029, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.034
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.040
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331660040, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.045
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.051
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331660051, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.056
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.062
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331660062, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.066
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.072
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331660072, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.077
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.083
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331660083, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.087
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.094
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331660093, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.098
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.104
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331660104, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.108
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.114
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331660113, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.118
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.124
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331660124, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.128
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.135
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331660134, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.139
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.145
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331660144, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.149
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.155
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331660154, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.159
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.166
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331660165, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.170
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.177
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331660176, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.181
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.187
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331660187, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.191
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.198
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331660197, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.202
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.209
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331660208, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.213
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.220
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331660220, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.224
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.230
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331660230, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.235
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.241
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331660240, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.245
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.250
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331660250, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.255
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.261
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331660261, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.265
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.272
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331660271, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.276
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.282
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331660281, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.286
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.293
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331660292, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.297
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.303
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331660303, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.308
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.314
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331660314, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.318
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.326
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331660324, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.331
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.337
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331660337, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.341
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.347
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331660347, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.352
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.358
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331660357, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.362
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.369
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331660368, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.373
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.380
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331660380, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.385
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.391
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331660390, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.395
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.401
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331660401, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.405
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.411
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331660411, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.416
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.422
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331660421, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.426
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.432
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331660432, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.436
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.443
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331660442, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.447
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.453
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331660453, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.457
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.464
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "null" && VERSION == ""  && TYPE == "DRIVER"}]], Result: [{Format=ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+, Time=1553331660464, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.469
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolo_sys_wrapper_hw_platform_0/system.hdf F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolov2_coco_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.478
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolo_sys_wrapper_hw_platform_0/system.hdf F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolov2_coco_bsp/system.mss ], Result: [{Format=ERROR: [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+, Time=1553331660477, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.483
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolo_sys_wrapper_hw_platform_0/system.hdf F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolov2_coco_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.495
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolo_sys_wrapper_hw_platform_0/system.hdf F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolov2_coco_bsp/system.mss], Result: [{Format=ERROR: [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+, Time=1553331660494, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.506
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolo_sys_wrapper_hw_platform_0/system.hdf F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolov2_coco_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.526
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolo_sys_wrapper_hw_platform_0/system.hdf F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolov2_coco_bsp/system.mss], Result: [{Format=ERROR: [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+, Time=1553331660525, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.558
+!MESSAGE XSCT Command: [::hsi::utils::closesw F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolov2_coco_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:00.563
+!MESSAGE XSCT command with result: [::hsi::utils::closesw F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolov2_coco_bsp/system.mss], Result: [{Format=Cannot close sw design 'F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolov2_coco_bsp/system.mss'.
+Design is not opened in the current session.
+
+, Time=1553331660563, Code=1}, ]. Thread: main
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2019-03-23 17:01:00.568
+!MESSAGE 
+!STACK 0
+java.lang.RuntimeException: Failed to closesw "F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolov2_coco_bsp/system.mss"
+Reason: Cannot close sw design 'F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolov2_coco_bsp/system.mss'.
+Design is not opened in the current session.
+
+
+	at com.xilinx.sdk.xsdb.XsdbCommandUtils.handleResult(XsdbCommandUtils.java:371)
+	at com.xilinx.sdk.xsdb.XsdbCommandUtils.executeAndRespond(XsdbCommandUtils.java:309)
+	at com.xilinx.sdk.sw.internal.SwPlatform.dispose(SwPlatform.java:298)
+	at com.xilinx.sdk.sw.ui.internal.editors.MSSViewer.refreshLibsView(MSSViewer.java:454)
+	at com.xilinx.sdk.sw.ui.internal.editors.MSSViewer.createFormContent(MSSViewer.java:115)
+	at org.eclipse.ui.forms.editor.FormPage$1.run(FormPage.java:166)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.forms.editor.FormPage.createPartControl(FormPage.java:163)
+	at org.eclipse.ui.forms.editor.FormEditor.pageChange(FormEditor.java:480)
+	at org.eclipse.ui.part.MultiPageEditorPart.setActivePage(MultiPageEditorPart.java:1102)
+	at org.eclipse.ui.forms.editor.FormEditor.setActivePage(FormEditor.java:614)
+	at org.eclipse.ui.part.MultiPageEditorPart.createPartControl(MultiPageEditorPart.java:367)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPartControl(CompatibilityPart.java:150)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor.createPartControl(CompatibilityEditor.java:99)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:340)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:966)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:931)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:151)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:375)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:294)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:162)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:105)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:74)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:56)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:129)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:975)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:651)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1317)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer$1.handleEvent(LazyStackRenderer.java:72)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:233)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:145)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4813)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:211)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:36)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:201)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:94)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:60)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:173)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer$5.widgetSelected(StackRenderer.java:1095)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4410)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1088)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:802)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3167)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1850)
+	at org.eclipse.swt.custom.CTabFolder$1.handleEvent(CTabFolder.java:333)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4410)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4228)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3816)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:687)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:604)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:01.863
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolo_sys_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:01.885
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolo_sys_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0], Result: [null, {"YOLO2_FPGA_0_s_axi_CTRL_BUS": {"name": "YOLO2_FPGA_0",
+"base": "0x43C00000",
+"high": "0x43C0FFFF",
+"size": "65536",
+"slaveintf": "s_axi_CTRL_BUS",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_0": {"name": "ps7_afi_0",
+"base": "0xF8008000",
+"high": "0xF8008FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_1": {"name": "ps7_afi_1",
+"base": "0xF8009000",
+"high": "0xF8009FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_2": {"name": "ps7_afi_2",
+"base": "0xF800A000",
+"high": "0xF800AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_3": {"name": "ps7_afi_3",
+"base": "0xF800B000",
+"high": "0xF800BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_coresight_comp_0": {"name": "ps7_coresight_comp_0",
+"base": "0xF8800000",
+"high": "0xF88FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddrc_0": {"name": "ps7_ddrc_0",
+"base": "0xF8006000",
+"high": "0xF8006FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dev_cfg_0": {"name": "ps7_dev_cfg_0",
+"base": "0xF8007000",
+"high": "0xF80070FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_ns": {"name": "ps7_dma_ns",
+"base": "0xF8004000",
+"high": "0xF8004FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_s": {"name": "ps7_dma_s",
+"base": "0xF8003000",
+"high": "0xF8003FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ethernet_0": {"name": "ps7_ethernet_0",
+"base": "0xE000B000",
+"high": "0xE000BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_globaltimer_0": {"name": "ps7_globaltimer_0",
+"base": "0xF8F00200",
+"high": "0xF8F002FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpio_0": {"name": "ps7_gpio_0",
+"base": "0xE000A000",
+"high": "0xE000AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpv_0": {"name": "ps7_gpv_0",
+"base": "0xF8900000",
+"high": "0xF89FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_intc_dist_0": {"name": "ps7_intc_dist_0",
+"base": "0xF8F01000",
+"high": "0xF8F01FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_iop_bus_config_0": {"name": "ps7_iop_bus_config_0",
+"base": "0xE0200000",
+"high": "0xE0200FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_l2cachec_0": {"name": "ps7_l2cachec_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ocmc_0": {"name": "ps7_ocmc_0",
+"base": "0xF800C000",
+"high": "0xF800CFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pl310_0": {"name": "ps7_pl310_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pmu_0": {"name": "ps7_pmu_0",
+"base": "0xF8893000",
+"high": "0xF8893FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_0": {"name": "ps7_qspi_0",
+"base": "0xE000D000",
+"high": "0xE000DFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_linear_0": {"name": "ps7_qspi_linear_0",
+"base": "0xFC000000",
+"high": "0xFCFFFFFF",
+"size": "16777216",
+"slaveintf": "",
+"type": "FLASH",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuc_0": {"name": "ps7_scuc_0",
+"base": "0xF8F00000",
+"high": "0xF8F000FC",
+"size": "253",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scugic_0": {"name": "ps7_scugic_0",
+"base": "0xF8F00100",
+"high": "0xF8F001FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scutimer_0": {"name": "ps7_scutimer_0",
+"base": "0xF8F00600",
+"high": "0xF8F0061F",
+"size": "32",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuwdt_0": {"name": "ps7_scuwdt_0",
+"base": "0xF8F00620",
+"high": "0xF8F006FF",
+"size": "224",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_sd_0": {"name": "ps7_sd_0",
+"base": "0xE0100000",
+"high": "0xE0100FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_slcr_0": {"name": "ps7_slcr_0",
+"base": "0xF8000000",
+"high": "0xF8000FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_uart_1": {"name": "ps7_uart_1",
+"base": "0xE0001000",
+"high": "0xE0001FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_usb_0": {"name": "ps7_usb_0",
+"base": "0xE0002000",
+"high": "0xE0002FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_xadc_0": {"name": "ps7_xadc_0",
+"base": "0xF8007100",
+"high": "0xF8007120",
+"size": "33",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddr_0": {"name": "ps7_ddr_0",
+"base": "0x00100000",
+"high": "0x3FFFFFFF",
+"size": "1072693248",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_0": {"name": "ps7_ram_0",
+"base": "0x00000000",
+"high": "0x0002FFFF",
+"size": "196608",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_1": {"name": "ps7_ram_1",
+"base": "0xFFFF0000",
+"high": "0xFFFFFDFF",
+"size": "65024",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:01.951
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolo_sys_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:01.998
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolo_sys_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0], Result: [null, {"YOLO2_FPGA_0": {"CTRL": {"description": "Control signals",
+"address_offset": "0",
+"access": "read-write",
+"size": "32",
+"fields": {"AP_START": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Control signal Register for 'ap_start'.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"AP_DONE": {"access": "read-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Control signal Register for 'ap_done'.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+"AP_IDLE": {"access": "read-only",
+"bit_offset": "2",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Control signal Register for 'ap_idle'.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+"AP_READY": {"access": "read-only",
+"bit_offset": "3",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Control signal Register for 'ap_ready'.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+"RESERVED_1": {"access": "read-only",
+"bit_offset": "4",
+"bit_range": "",
+"bit_width": "3",
+"desc": "Reserved.  0s on read.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+"AUTO_RESTART": {"access": "read-write",
+"bit_offset": "7",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Control signal Register for 'auto_restart'.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RESERVED_2": {"access": "read-only",
+"bit_offset": "8",
+"bit_range": "",
+"bit_width": "24",
+"desc": "Reserved.  0s on read.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+},
+},
+"GIER": {"description": "Global Interrupt Enable Register",
+"address_offset": "4",
+"access": "read-write",
+"size": "32",
+"fields": {"Enable": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Master enable for the device interrupt output to the system interrupt controller: 0 = Disabled, 1 = Enabled",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RESERVED": {"access": "read-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "31",
+"desc": "Reserved.  0s on read.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+},
+},
+"IP_IER": {"description": "IP Interrupt Enable Register",
+"address_offset": "8",
+"access": "read-write",
+"size": "32",
+"fields": {"CHAN0_INT_EN": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 0 (ap_done) Interrupt.  0 = Disabled, 1 = Enabled.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"CHAN1_INT_EN": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 1 (ap_ready) Interrupt.  0 = Disabled, 1 = Enabled.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RESERVED": {"access": "read-only",
+"bit_offset": "2",
+"bit_range": "",
+"bit_width": "30",
+"desc": "Reserved.  0s on read.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+},
+},
+"IP_ISR": {"description": "IP Interrupt Status Register",
+"address_offset": "12",
+"access": "read-write",
+"size": "32",
+"fields": {"CHAN0_INT_ST": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 0 (ap_done) Interrupt Status. 0 = No Channel 0 input interrupt, 1 = Channel 0 input interrup",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+"CHAN1_INT_ST": {"access": "read-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 1 (ap_ready) Interrupt Status. 0 = No Channel 1 input interrupt, 1 = Channel 1 input interrup",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+"RESERVED": {"access": "read-only",
+"bit_offset": "2",
+"bit_range": "",
+"bit_width": "30",
+"desc": "Reserved.  0s on read.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+},
+},
+"Input_r": {"description": "Data signal of Input_r",
+"address_offset": "16",
+"access": "write-only",
+"size": "32",
+"fields": {"Input_r": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Bit 31 to 0 Data signal of Input_r",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"Output_r": {"description": "Data signal of Output_r",
+"address_offset": "24",
+"access": "write-only",
+"size": "32",
+"fields": {"Output_r": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Bit 31 to 0 Data signal of Output_r",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"Weight": {"description": "Data signal of Weight",
+"address_offset": "32",
+"access": "write-only",
+"size": "32",
+"fields": {"Weight": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Bit 31 to 0 Data signal of Weight",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"Beta": {"description": "Data signal of Beta",
+"address_offset": "40",
+"access": "write-only",
+"size": "32",
+"fields": {"Beta": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Bit 31 to 0 Data signal of Beta",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"InFM_num": {"description": "Data signal of InFM_num",
+"address_offset": "48",
+"access": "write-only",
+"size": "32",
+"fields": {"InFM_num": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Bit 31 to 0 Data signal of InFM_num",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"OutFM_num": {"description": "Data signal of OutFM_num",
+"address_offset": "56",
+"access": "write-only",
+"size": "32",
+"fields": {"OutFM_num": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Bit 31 to 0 Data signal of OutFM_num",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"Kernel_size": {"description": "Data signal of Kernel_size",
+"address_offset": "64",
+"access": "write-only",
+"size": "32",
+"fields": {"Kernel_size": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Bit 31 to 0 Data signal of Kernel_size",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"Kernel_stride": {"description": "Data signal of Kernel_stride",
+"address_offset": "72",
+"access": "write-only",
+"size": "32",
+"fields": {"Kernel_stride": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Bit 31 to 0 Data signal of Kernel_stride",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"Input_w": {"description": "Data signal of Input_w",
+"address_offset": "80",
+"access": "write-only",
+"size": "32",
+"fields": {"Input_w": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Bit 31 to 0 Data signal of Input_w",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"Input_h": {"description": "Data signal of Input_h",
+"address_offset": "88",
+"access": "write-only",
+"size": "32",
+"fields": {"Input_h": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Bit 31 to 0 Data signal of Input_h",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"Padding": {"description": "Data signal of Padding",
+"address_offset": "96",
+"access": "write-only",
+"size": "32",
+"fields": {"Padding": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Bit 31 to 0 Data signal of Padding",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"IsNL": {"description": "Data signal of IsNL",
+"address_offset": "104",
+"access": "write-only",
+"size": "32",
+"fields": {"IsNL": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Bit 0 to 0 Data signal of IsNL",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RESERVED": {"access": "read-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "31",
+"desc": "Reserved.  0s on read.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+},
+},
+"IsBN": {"description": "Data signal of IsBN",
+"address_offset": "112",
+"access": "write-only",
+"size": "32",
+"fields": {"IsBN": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Bit 0 to 0 Data signal of IsBN",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RESERVED": {"access": "read-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "31",
+"desc": "Reserved.  0s on read.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+},
+},
+"TM": {"description": "Data signal of TM",
+"address_offset": "120",
+"access": "write-only",
+"size": "32",
+"fields": {"TM": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Bit 31 to 0 Data signal of TM",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"TN": {"description": "Data signal of TN",
+"address_offset": "128",
+"access": "write-only",
+"size": "32",
+"fields": {"TN": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Bit 31 to 0 Data signal of TN",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"TR": {"description": "Data signal of TR",
+"address_offset": "136",
+"access": "write-only",
+"size": "32",
+"fields": {"TR": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Bit 31 to 0 Data signal of TR",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"TC": {"description": "Data signal of TC",
+"address_offset": "144",
+"access": "write-only",
+"size": "32",
+"fields": {"TC": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Bit 31 to 0 Data signal of TC",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"mLoops": {"description": "Data signal of mLoops",
+"address_offset": "152",
+"access": "write-only",
+"size": "32",
+"fields": {"mLoops": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Bit 31 to 0 Data signal of mLoops",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"nLoops": {"description": "Data signal of nLoops",
+"address_offset": "160",
+"access": "write-only",
+"size": "32",
+"fields": {"nLoops": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Bit 31 to 0 Data signal of nLoops",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"rLoops": {"description": "Data signal of rLoops",
+"address_offset": "168",
+"access": "write-only",
+"size": "32",
+"fields": {"rLoops": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Bit 31 to 0 Data signal of rLoops",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"cLoops": {"description": "Data signal of cLoops",
+"address_offset": "176",
+"access": "write-only",
+"size": "32",
+"fields": {"cLoops": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Bit 31 to 0 Data signal of cLoops",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"LayerType": {"description": "Data signal of LayerType",
+"address_offset": "184",
+"access": "write-only",
+"size": "32",
+"fields": {"LayerType": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Bit 31 to 0 Data signal of LayerType",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"InputQ": {"description": "Data signal of InputQ",
+"address_offset": "192",
+"access": "write-only",
+"size": "32",
+"fields": {"InputQ": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Bit 31 to 0 Data signal of InputQ",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"OutputQ": {"description": "Data signal of OutputQ",
+"address_offset": "200",
+"access": "write-only",
+"size": "32",
+"fields": {"OutputQ": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Bit 31 to 0 Data signal of OutputQ",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"WeightQ": {"description": "Data signal of WeightQ",
+"address_offset": "208",
+"access": "write-only",
+"size": "32",
+"fields": {"WeightQ": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Bit 31 to 0 Data signal of WeightQ",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"BetaQ": {"description": "Data signal of BetaQ",
+"address_offset": "216",
+"access": "write-only",
+"size": "32",
+"fields": {"BetaQ": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Bit 31 to 0 Data signal of BetaQ",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+},
+"ps7_afi_0": {},
+"ps7_afi_1": {},
+"ps7_afi_2": {},
+"ps7_afi_3": {},
+"ps7_coresight_comp_0": {},
+"ps7_ddr_0": {},
+"ps7_ddrc_0": {},
+"ps7_dev_cfg_0": {},
+"ps7_dma_ns": {},
+"ps7_dma_s": {},
+"ps7_ethernet_0": {},
+"ps7_globaltimer_0": {},
+"ps7_gpio_0": {},
+"ps7_gpv_0": {},
+"ps7_intc_dist_0": {},
+"ps7_iop_bus_config_0": {},
+"ps7_l2cachec_0": {},
+"ps7_ocmc_0": {},
+"ps7_pl310_0": {},
+"ps7_pmu_0": {},
+"ps7_qspi_0": {},
+"ps7_qspi_linear_0": {},
+"ps7_ram_0": {},
+"ps7_ram_1": {},
+"ps7_scuc_0": {},
+"ps7_scugic_0": {},
+"ps7_scutimer_0": {},
+"ps7_scuwdt_0": {},
+"ps7_sd_0": {},
+"ps7_slcr_0": {},
+"ps7_uart_1": {},
+"ps7_usb_0": {},
+"ps7_xadc_0": {},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:02.005
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolo_sys_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-03-23 17:01:02.047
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json F:/C_plus_prj/yolo3_sdk/YOLOv3_xilinx_SDK/yolo_sys_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1], Result: [null, {"YOLO2_FPGA_0": {"CTRL": {"description": "Control signals",
+"address_offset": "0",
+"access": "read-write",
+"size": "32",
+"fields": {"AP_START": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Control signal Register for 'ap_start'.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"AP_DONE": {"access": "read-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Control signal Register for 'ap_done'.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+"AP_IDLE": {"access": "read-only",
+"bit_offset": "2",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Control signal Register for 'ap_idle'.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+"AP_READY": {"access": "read-only",
+"bit_offset": "3",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Control signal Register for 'ap_ready'.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+"RESERVED_1": {"access": "read-only",
+"bit_offset": "4",
+"bit_range": "",
+"bit_width": "3",
+"desc": "Reserved.  0s on read.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+"AUTO_RESTART": {"access": "read-write",
+"bit_offset": "7",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Control signal Register for 'auto_restart'.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RESERVED_2": {"access": "read-only",
+"bit_offset": "8",
+"bit_range": "",
+"bit_width": "24",
+"desc": "Reserved.  0s on read.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+},
+},
+"GIER": {"description": "Global Interrupt Enable Register",
+"address_offset": "4",
+"access": "read-write",
+"size": "32",
+"fields": {"Enable": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Master enable for the device interrupt output to the system interrupt controller: 0 = Disabled, 1 = Enabled",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RESERVED": {"access": "read-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "31",
+"desc": "Reserved.  0s on read.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+},
+},
+"IP_IER": {"description": "IP Interrupt Enable Register",
+"address_offset": "8",
+"access": "read-write",
+"size": "32",
+"fields": {"CHAN0_INT_EN": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 0 (ap_done) Interrupt.  0 = Disabled, 1 = Enabled.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"CHAN1_INT_EN": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 1 (ap_ready) Interrupt.  0 = Disabled, 1 = Enabled.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RESERVED": {"access": "read-only",
+"bit_offset": "2",
+"bit_range": "",
+"bit_width": "30",
+"desc": "Reserved.  0s on read.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+},
+},
+"IP_ISR": {"description": "IP Interrupt Status Register",
+"address_offset": "12",
+"access": "read-write",
+"size": "32",
+"fields": {"CHAN0_INT_ST": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 0 (ap_done) Interrupt Status. 0 = No Channel 0 input interrupt, 1 = Channel 0 input interrup",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+"CHAN1_INT_ST": {"access": "read-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 1 (ap_ready) Interrupt Status. 0 = No Channel 1 input interrupt, 1 = Channel 1 input interrup",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+"RESERVED": {"access": "read-only",
+"bit_offset": "2",
+"bit_range": "",
+"bit_width": "30",
+"desc": "Reserved.  0s on read.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+},
+},
+"Input_r": {"description": "Data signal of Input_r",
+"address_offset": "16",
+"access": "write-only",
+"size": "32",
+"fields": {"Input_r": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Bit 31 to 0 Data signal of Input_r",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"Output_r": {"description": "Data signal of Output_r",
+"address_offset": "24",
+"access": "write-only",
+"size": "32",
+"fields": {"Output_r": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Bit 31 to 0 Data signal of Output_r",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"Weight": {"description": "Data signal of Weight",
+"address_offset": "32",
+"access": "write-only",
+"size": "32",
+"fields": {"Weight": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Bit 31 to 0 Data signal of Weight",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"Beta": {"description": "Data signal of Beta",
+"address_offset": "40",
+"access": "write-only",
+"size": "32",
+"fields": {"Beta": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Bit 31 to 0 Data signal of Beta",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"InFM_num": {"description": "Data signal of InFM_num",
+"address_offset": "48",
+"access": "write-only",
+"size": "32",
+"fields": {"InFM_num": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Bit 31 to 0 Data signal of InFM_num",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"OutFM_num": {"description": "Data signal of OutFM_num",
+"address_offset": "56",
+"access": "write-only",
+"size": "32",
+"fields": {"OutFM_num": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Bit 31 to 0 Data signal of OutFM_num",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"Kernel_size": {"description": "Data signal of Kernel_size",
+"address_offset": "64",
+"access": "write-only",
+"size": "32",
+"fields": {"Kernel_size": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Bit 31 to 0 Data signal of Kernel_size",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"Kernel_stride": {"description": "Data signal of Kernel_stride",
+"address_offset": "72",
+"access": "write-only",
+"size": "32",
+"fields": {"Kernel_stride": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Bit 31 to 0 Data signal of Kernel_stride",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"Input_w": {"description": "Data signal of Input_w",
+"address_offset": "80",
+"access": "write-only",
+"size": "32",
+"fields": {"Input_w": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Bit 31 to 0 Data signal of Input_w",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"Input_h": {"description": "Data signal of Input_h",
+"address_offset": "88",
+"access": "write-only",
+"size": "32",
+"fields": {"Input_h": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Bit 31 to 0 Data signal of Input_h",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"Padding": {"description": "Data signal of Padding",
+"address_offset": "96",
+"access": "write-only",
+"size": "32",
+"fields": {"Padding": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Bit 31 to 0 Data signal of Padding",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"IsNL": {"description": "Data signal of IsNL",
+"address_offset": "104",
+"access": "write-only",
+"size": "32",
+"fields": {"IsNL": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Bit 0 to 0 Data signal of IsNL",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RESERVED": {"access": "read-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "31",
+"desc": "Reserved.  0s on read.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+},
+},
+"IsBN": {"description": "Data signal of IsBN",
+"address_offset": "112",
+"access": "write-only",
+"size": "32",
+"fields": {"IsBN": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Bit 0 to 0 Data signal of IsBN",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RESERVED": {"access": "read-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "31",
+"desc": "Reserved.  0s on read.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+},
+},
+"TM": {"description": "Data signal of TM",
+"address_offset": "120",
+"access": "write-only",
+"size": "32",
+"fields": {"TM": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Bit 31 to 0 Data signal of TM",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"TN": {"description": "Data signal of TN",
+"address_offset": "128",
+"access": "write-only",
+"size": "32",
+"fields": {"TN": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Bit 31 to 0 Data signal of TN",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"TR": {"description": "Data signal of TR",
+"address_offset": "136",
+"access": "write-only",
+"size": "32",
+"fields": {"TR": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Bit 31 to 0 Data signal of TR",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"TC": {"description": "Data signal of TC",
+"address_offset": "144",
+"access": "write-only",
+"size": "32",
+"fields": {"TC": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Bit 31 to 0 Data signal of TC",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"mLoops": {"description": "Data signal of mLoops",
+"address_offset": "152",
+"access": "write-only",
+"size": "32",
+"fields": {"mLoops": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Bit 31 to 0 Data signal of mLoops",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"nLoops": {"description": "Data signal of nLoops",
+"address_offset": "160",
+"access": "write-only",
+"size": "32",
+"fields": {"nLoops": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Bit 31 to 0 Data signal of nLoops",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"rLoops": {"description": "Data signal of rLoops",
+"address_offset": "168",
+"access": "write-only",
+"size": "32",
+"fields": {"rLoops": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Bit 31 to 0 Data signal of rLoops",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"cLoops": {"description": "Data signal of cLoops",
+"address_offset": "176",
+"access": "write-only",
+"size": "32",
+"fields": {"cLoops": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Bit 31 to 0 Data signal of cLoops",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"LayerType": {"description": "Data signal of LayerType",
+"address_offset": "184",
+"access": "write-only",
+"size": "32",
+"fields": {"LayerType": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Bit 31 to 0 Data signal of LayerType",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"InputQ": {"description": "Data signal of InputQ",
+"address_offset": "192",
+"access": "write-only",
+"size": "32",
+"fields": {"InputQ": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Bit 31 to 0 Data signal of InputQ",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"OutputQ": {"description": "Data signal of OutputQ",
+"address_offset": "200",
+"access": "write-only",
+"size": "32",
+"fields": {"OutputQ": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Bit 31 to 0 Data signal of OutputQ",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"WeightQ": {"description": "Data signal of WeightQ",
+"address_offset": "208",
+"access": "write-only",
+"size": "32",
+"fields": {"WeightQ": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Bit 31 to 0 Data signal of WeightQ",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"BetaQ": {"description": "Data signal of BetaQ",
+"address_offset": "216",
+"access": "write-only",
+"size": "32",
+"fields": {"BetaQ": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Bit 31 to 0 Data signal of BetaQ",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+},
+"ps7_afi_0": {},
+"ps7_afi_1": {},
+"ps7_afi_2": {},
+"ps7_afi_3": {},
+"ps7_coresight_comp_0": {},
+"ps7_ddr_0": {},
+"ps7_ddrc_0": {},
+"ps7_dev_cfg_0": {},
+"ps7_dma_ns": {},
+"ps7_dma_s": {},
+"ps7_ethernet_0": {},
+"ps7_globaltimer_0": {},
+"ps7_gpio_0": {},
+"ps7_gpv_0": {},
+"ps7_intc_dist_0": {},
+"ps7_iop_bus_config_0": {},
+"ps7_l2cachec_0": {},
+"ps7_ocmc_0": {},
+"ps7_pl310_0": {},
+"ps7_pmu_0": {},
+"ps7_qspi_0": {},
+"ps7_qspi_linear_0": {},
+"ps7_ram_0": {},
+"ps7_ram_1": {},
+"ps7_scuc_0": {},
+"ps7_scugic_0": {},
+"ps7_scutimer_0": {},
+"ps7_scuwdt_0": {},
+"ps7_sd_0": {},
+"ps7_slcr_0": {},
+"ps7_uart_1": {},
+"ps7_usb_0": {},
+"ps7_xadc_0": {},
+}]. Thread: main
+
+!ENTRY org.eclipse.core.resources 4 568 2019-03-23 17:02:44.967
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: F:\C_plus_prj\yolo3_sdk\YOLOv3_xilinx_SDK\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (系统找不到指定的路径。)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1768)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1852)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1224)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1165)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 4 568 2019-03-23 17:09:40.572
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: F:\C_plus_prj\yolo3_sdk\YOLOv3_xilinx_SDK\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (系统找不到指定的路径。)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1768)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1852)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1224)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1165)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 4 568 2019-03-23 18:04:59.177
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: F:\C_plus_prj\yolo3_sdk\YOLOv3_xilinx_SDK\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (系统找不到指定的路径。)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1768)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1852)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1224)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1165)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 4 568 2019-03-23 18:24:39.267
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: F:\C_plus_prj\yolo3_sdk\YOLOv3_xilinx_SDK\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (系统找不到指定的路径。)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1768)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1852)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1224)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1165)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 4 568 2019-03-23 18:34:30.257
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: F:\C_plus_prj\yolo3_sdk\YOLOv3_xilinx_SDK\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (系统找不到指定的路径。)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1768)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1852)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1224)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1165)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 4 568 2019-03-23 20:11:13.313
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: F:\C_plus_prj\yolo3_sdk\YOLOv3_xilinx_SDK\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (系统找不到指定的路径。)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1768)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1852)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1224)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1165)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY ilg.gnuarmeclipse.packs.data 4 1 2019-03-23 21:55:45.919
+!MESSAGE File .repos.xml does not exist, using defaults.
+
+!ENTRY org.eclipse.core.resources 4 568 2019-03-23 22:01:12.506
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: F:\C_plus_prj\yolo3_sdk\YOLOv3_xilinx_SDK\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (系统找不到指定的路径。)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1768)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1852)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1224)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1165)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 4 568 2019-03-23 22:16:17.603
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: F:\C_plus_prj\yolo3_sdk\YOLOv3_xilinx_SDK\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (系统找不到指定的路径。)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1768)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1852)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1224)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1165)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-03-23 23:33:57.586
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 4 1 2019-03-23 23:33:57.601
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 4 568 2019-03-23 23:33:57.601
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: F:\C_plus_prj\yolo3_sdk\YOLOv3_xilinx_SDK\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers (系统找不到指定的路径。)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:51)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1657)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1739)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1199)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2283)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$4.run(IDEWorkbenchAdvisor.java:456)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
